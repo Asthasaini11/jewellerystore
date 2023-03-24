@@ -70,8 +70,10 @@ const Navbar = () => {
             <Search style={{ color: 'grey', fontSize: '16px' }} />
           </SearchContainer> */}
           <Link to="/">
-            <img style={{ height: '40px', width: '40px' }} src="https://cdn-icons.flaticon.com/png/128/3674/premium/3674421.png?token=exp=1656135089~hmac=8aaf85c3553a91430de59e2b1bb29377" alt="store" />
+            HOME
+            {/* <img style={{ height: '40px', width: '40px' }} src="https://cdn-icons.flaticon.com/png/128/3674/premium/3674421.png?token=exp=1656135089~hmac=8aaf85c3553a91430de59e2b1bb29377" alt="store" /> */}
           </Link>
+
           <MenuItem > <Link to="/" className='nav-link' style={{ color: 'black', fontWeight: 'bold' }}>Products</Link></MenuItem>
         </Left>
 
